@@ -1,0 +1,28 @@
+@mixin pic {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+  margin-bottom: 48px;
+}
+.section {
+  &-top {
+    background-image: url("../img/banner_mobile.jpg");
+    @include pic;
+  }
+  &-second {
+    background-image: url("../../img/second-mob.jpg");
+    @include pic;
+  }
+  &-middle {
+    background-image: url("../../img/middle-mob.jpg");
+    @include pic;
+    margin: 0 0 45px;
+  }
+  &-bottom {
+    background-image: url("../../img/bottom-mob.jpg");
+    @include pic;
+  }
+}

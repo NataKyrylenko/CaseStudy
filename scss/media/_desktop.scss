@@ -1,0 +1,65 @@
+@mixin desktop {
+  height: 32vw;
+  min-height: 470px;
+}
+
+@media screen and (min-width: $desktop) {
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .logo {
+    margin-bottom: 48px;
+  }
+  .section {
+    &-top {
+      @include desktop;
+      background-image: url("../img/banner_desktop.jpg");
+      margin-bottom: 130px;
+    }
+    &-second {
+      background-image: url("../../img/second-desktop.jpg");
+      @include desktop;
+      margin-bottom: 50px;
+    }
+    &-middle {
+      background-image: url("../../img/middle-desktop.jpg");
+      @include desktop;
+      margin-bottom: 53px;
+    }
+    &-bottom {
+      background-image: url("../../img/bottom-desktop.jpg");
+      @include desktop;
+    }
+  }
+  .main__title {
+    width: 100%;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 64px;
+  }
+  .subtitle {
+    margin: 180px 0 40px;
+    &-first {
+      margin-bottom: 40px;
+    }
+    &-middle {
+      margin: 100px 0 40px;
+    }
+    &-bottom {
+      margin: 100px 0 40px;
+    }
+  }
+  .text {
+    letter-spacing: 0.054em;
+    padding-bottom: 30px;
+    &-last {
+      padding-bottom: 170px;
+      letter-spacing: 0.056em;
+    }
+  }
+  .once {
+    width: 49%;
+  }
+}

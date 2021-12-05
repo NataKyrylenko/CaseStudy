@@ -1,0 +1,13 @@
+.body {
+  min-width: 320px;
+  color: $color-primary;
+  font-size: $body-font-size;
+  padding: 110px 0 70px;
+  font-family: $font-primary;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: $wrapper-width;
+  padding: 0 16px;
+}

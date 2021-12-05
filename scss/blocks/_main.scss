@@ -1,0 +1,49 @@
+@mixin subtitle {
+  font-size: $subtitle-font-size;
+  font-weight: 400;
+  line-height: 38px;
+  color: $color-default;
+  letter-spacing: 2.1px;
+}
+@mixin text {
+  font-size: $body-font-size;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.055em;
+  padding-bottom: 32px;
+}
+
+.main {
+  &__title {
+    width: 75%;
+    font-size: 33px;
+    line-height: 50px;
+    font-family: $font-secondary;
+    letter-spacing: 0.05em;
+    margin-bottom: 52px;
+  }
+}
+.subtitle {
+  @include subtitle;
+  margin: 32px 0;
+  &-first {
+    @include subtitle;
+    margin-bottom: 16px;
+  }
+  &-middle {
+    @include subtitle;
+    margin: 44px 0 40px;
+  }
+  &-bottom {
+    @include subtitle;
+    margin: 30px 0 40px;
+  }
+}
+.text {
+  @include text;
+  &-last {
+    @include text;
+    letter-spacing: 0.12em;
+    padding-bottom: 69px;
+  }
+}
