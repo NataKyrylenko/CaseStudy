@@ -12,16 +12,16 @@
       margin-bottom: 56px;
     }
     &-second {
-      background-image: url("../../img/second-tablet.jpg");
+      background-image: url("../img/second-tablet.jpg");
       @include tablet;
       margin-bottom: 56px;
     }
     &-middle {
-      background-image: url("../../img/middle-tablet.jpg");
+      background-image: url("../img/middle-tablet.jpg");
       @include tablet;
     }
     &-bottom {
-      background-image: url("../../img/bottom-tablet.jpg");
+      background-image: url("../img/bottom-tablet.jpg");
       @include tablet;
     }
   }

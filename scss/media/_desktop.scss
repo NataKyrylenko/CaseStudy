@@ -19,17 +19,17 @@
       margin-bottom: 130px;
     }
     &-second {
-      background-image: url("../../img/second-desktop.jpg");
+      background-image: url("../img/second-desktop.jpg");
       @include desktop;
       margin-bottom: 50px;
     }
     &-middle {
-      background-image: url("../../img/middle-desktop.jpg");
+      background-image: url("../img/middle-desktop.jpg");
       @include desktop;
       margin-bottom: 53px;
     }
     &-bottom {
-      background-image: url("../../img/bottom-desktop.jpg");
+      background-image: url("../img/bottom-desktop.jpg");
       @include desktop;
     }
   }

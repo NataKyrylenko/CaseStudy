@@ -13,16 +13,16 @@
     @include pic;
   }
   &-second {
-    background-image: url("../../img/second-mob.jpg");
+    background-image: url("../img/second-mob.jpg");
     @include pic;
   }
   &-middle {
-    background-image: url("../../img/middle-mob.jpg");
+    background-image: url("../img/middle-mob.jpg");
     @include pic;
     margin: 0 0 45px;
   }
   &-bottom {
-    background-image: url("../../img/bottom-mob.jpg");
+    background-image: url("../img/bottom-mob.jpg");
     @include pic;
   }
 }
